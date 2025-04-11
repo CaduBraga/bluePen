@@ -54,6 +54,7 @@
       border-radius: 5px;
       cursor: pointer;
       transition: background-color 0.3s;
+      margin-right: 10px; /* Espaçamento entre botões */
     }
     button:hover {
       background-color: #e0e0e0;
@@ -89,6 +90,7 @@
     <section>
       <h2>Ouça a música</h2>
       <button onclick="tocarAudio()">Tocar Música</button>
+      <button onclick="pararAudio()">Parar Música</button>
       <audio id="musica">
         <source src="caneta-azul.mp3" type="audio/mp3">
         Seu navegador não suporta o elemento de áudio.
@@ -104,6 +106,12 @@
     function tocarAudio() {
       const audio = document.getElementById("musica");
       audio.play();
+    }
+
+    function pararAudio() {
+      const audio = document.getElementById("musica");
+      audio.pause(); // Pausa a música
+      audio.currentTime = 0; // Retorna ao início
     }
   </script>
 </body>
