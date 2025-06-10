@@ -1,20 +1,28 @@
-Projeto desenvolvido por Carlos Eduardo Braga e Kael Luih de Araújo para a unidade curricular de metodologias ágeis e versionamento
+# bluePen
 
-Funcionalidades:
-Informações sobre Manoel Gomes
-Curiosidades da música
-Vídeo que pode ser iniciado, pausado, mutado e aumentado
-Player de áudio com botões para tocar e parar a música
+Site criado pelo ChatGPT para testar o versionamento em equipe pelo GitHub
 
-Estrutura do Projeto:
+![HTML](https://img.shields.io/badge/language-HTML-blue.svg)
 
-├── bluePen.html # Página principal
-├── musica.mp3 # Arquivo de áudio local
-├── video.mp4 # Arquivo de áudio vídeo
-├── README.md # Documentação do projeto
+## 🌐 Sobre
 
-Edições:
-Adição do botão de música
-Adição do botão de pause
-Reestilização do layout (alternativo)
-Correção de escrita e funcionamento do vídeo (arquivo local)
+Este projeto é um site desenvolvido com o auxílio do ChatGPT, com o objetivo de aprender e praticar versionamento de código em equipe usando o GitHub.
+
+## 🚀 Funcionalidades
+
+- Estrutura básica de um site HTML
+- Prática de colaboração e versionamento com Git e GitHub
+
+## 🛠️ Tecnologias
+
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+
+## 📂 Como usar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/CaduBraga/bluePen.git
+   ```
+2. Abra o arquivo `index.html` no seu navegador.
+
+---
